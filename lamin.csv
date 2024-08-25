@@ -1,0 +1,358 @@
+What is a linked list?, A linear data structure,A sorting algorithm,A type of tree structure,A database query language, A linear data structure,memorybased,easy
+Which of the following is true about a singly linked list?,Each node has two pointers,Traversal can only be done in one direction, It requires less memory than a doubly linked list,Deletion at the middle requires O(1) time complexity,Traversal can only be done in one direction,memorybased,easy
+What is the time complexity of inserting a node at the beginning of a linked list,O(1),O(log n),O(n),O(n log n),O(1),memorybased,medium
+Which of the following is not an advantage of a linked list over an array?,Dynamic size,Ease of insertion/deletion at any position,Random access of elements,Efficient memory utilization,Random access of elements,memorybased,medium
+What is the purpose of a tail pointer in a linked list? , It points to the previous node ,It points to the next node ,It points to the last node ,It points to the first node ,It points to the last node ,memorybased,easy
+"In a circular linked list, how does the last node point to the first node?",NULL pointer,It points to the previous node ,it points to a special marker indicating the end,it directly points to first node,it directly points to first node,understanding,medium
+Which type of linked list allows traversal in both directions?,singly linked list,doubly linked list,circular linked list ,skip list,doubly linked list,memorybased,easy
+What is a dummy node in a linked list?,A node with null pointers,A node with data equal to zero,A node used as a placeholder,A node that is disconnected from the list,A node used as a placeholder,memorybased,medium
+How is memory allocated for nodes in a linked list?,Contiguous allocation,Stack allocation,Heap allocation,Global allocation,Heap allocation,memorybased,easy
+Which operation in a linked list has the highest time complexity?,Insertion at the beginning,Insertion at the end,Deletion at the beginning,Deletion at the end,Deletion at the end,understanding,hard
+What is the memory overhead for each node in a singly linked list in a 32-bit system?,4 bytes,8 bytes,12 bytes,16 bytes,4 bytes,memorybased,hard
+How does memory allocation for nodes in a linked list differ from arrays?,Nodes are allocated contiguously in memory,Nodes are allocated on the stack,Nodes are allocated dynamically on the heap,Nodes are allocated statically,Nodes are allocated dynamically on the heap,memorybased,medium
+"What is the significance of the ""next"" pointer in a linked list node?",It stores the value of the node,It points to the previous node,It points to the next node in the sequence,It contains metadata about the node,It points to the next node in the sequence,memorybased,easy
+"In a doubly linked list, how much additional memory is required per node compared to a singly linked list?",Same amount,Half amount,Twice the amount,Three times the amount,Twice the amount,memorybased,medium
+"When a node is dynamically allocated for a linked list, what type of memory allocation function is commonly used?",malloc(),free(),realloc(),calloc(),malloc(),memorybased,easy
+What is the term for memory leaks that can occur in linked lists?,Segmentation fault,Memory fragmentation,Memory leak,Dangling pointer,Memory leak,memorybased,hard
+How does the memory usage of a linked list compare to that of an array when it comes to dynamic resizing?,Linked list consumes more memory,Array consumes more memory,Both consume the same amount of memory,It depends on the implementation,. Linked list consumes more memory,understanding,medium
+What happens if memory allocation fails during node creation in a linked list?,Program crashes, Operating system reallocates memory,Null pointer is returned,Garbage collector intervenes,Null pointer is returned,understanding,easy
+How does memory fragmentation impact the performance of a linked list?,It improves performance,It degrades performance,It has no impact,It depends on the size of the list,It degrades performance,memorybased,hard
+What is the role of the memory management system in a linked list?,To allocate memory for nodes,To deallocate memory for nodes,To manage memory leaks,All of the above,All of the above,memorybased,medium
+"In a singly linked list, how many pointers does each node typically contain?",one,two,three,four,one,memorybased,easy
+"When a node is deleted from a linked list, what happens to its memory?",It is immediately deallocated,It becomes inaccessible but remains in memory until garbage collected,It remains intact but with no references,It is marked for deletion by the operating system,It becomes inaccessible but remains in memory until garbage collected,understanding,medium
+What is the impact of memory fragmentation on linked list operations?,It has no impact,It may slow down traversal and manipulation operations,It improves memory allocation efficiency,It reduces memory consumption,It may slow down traversal and manipulation operations,memorybased,hard
+"In a circular linked list, how is the end of the list identified?",By a null pointer,By a special marker indicating the end,By the last node pointing to the first node,By the last node pointing to null,By the last node pointing to the first node,memorybased,easy
+"What is the significance of the ""data"" field in a linked list node?",It points to the previous node,It contains the value of the node,It points to the next node,It serves as metadata for memory management,It contains the value of the node,memorybased,easy
+"When a new node is inserted into a linked list, how is memory allocated for it?",Memory is allocated statically,Memory is allocated on the heap using malloc or similar functions,Memory is allocated on the stack,Memory is allocated on the globally,Memory is allocated on the heap using malloc or similar functions,memorybased,medium
+"What is the purpose of a ""dummy"" node in some linked list implementations?",To store special metadata,To serve as a placeholder for insertion operations,To mark the end of the list,To improve memory management efficiency,To serve as a placeholder for insertion operations,memorybased,hard
+How does memory management in a linked list differ from that in an array?,Linked lists require manual memory management,Arrays require manual memory management,Both use automatic memory management,Neither requires memory management,Linked lists require manual memory management,memorybased,easy
+the number of comparisons needed to search a singly linked list of length n for a given element is_____,log(2*n),n/2,log(2*n)-1,n,n,fillups,medium
+Which of the following information is stored in a doubly-linked list’s nodes?,value of node,address of the nest node ,address of the previous node ,All of the above,All of the above,memorybased,easy
+Which of the following are applications of linked lists?,implementing file systems,chaining in hash tables ,binary tree implementation,All of the above,All of the above,memorybased,medium
+Insertion of an element at the middle of a linked list requires the modification of how many pointers?,2,1,3,4,2,understanding,easy
+Insertion of an element at the ends of a linked list requires the modification of how many pointers?,2,1,3,4,1,understanding,easy
+Which of the following algorithms is not feasible to implement in a linked list?,linear search,merge sort,insertion sort,binary search,binary search,memorybased,medium
+Which of the following can be done with LinkedList?,Implementation of Stacks and Queues.,Implementation of Binary Trees.,Implementation of Data Structures that can simulate Dynamic Arrays.,All of the above.,All of the above.,memorybased,easy
+A linked list node can be implemented using?,struct,class ,both a and b,none of the above,both a and b,memorybased,easy
+Polynomial addition can be implemented using which of the following structure?,Linked List,Trees,Stacks,none of the above,trees,memorybased,medium
+A linked list in which none of the nodes contains a NULL pointer is?,singly linked list,doubly linked list,circular linked list ,none of the above,circular linked list,memorybased,medium
+Which of the following sorting algorithms can be applied to linked lists?,merge sort,Insertion sort,quick sort,all of the above,all of the above,memorybased,easy
+The type of pointer used to point to the address of the next element in a linked list?,pointer to character,pointer to integer,pointer to node ,none of the above,pointer to node,understanding,hard
+Which of the following is optimal to find an element at kth position at the linked list?,singly linked list,doubly linked list,circular linked list ,array implementation of linked list,array implementation of linked list,understanding,hard
+____is the time complexity of adding 2 numbers as a linked list?,"O(max(n,m))",O(n+m),"O(min(n,m))",none of the above,"O(max(n,m))",fillups,hard
+Rotating a linked list by some places clockwise will take a time complexity of?,O(1),O(n)1,O(n^2),none of the above,O(n),understanding,hard
+In a circular linked list insertion of a record requires the modification of?,1 pointer,2 pointer,3 pointer ,4 pointer,2 pointer,understanding,medium
+Rotating a linked list by some places clockwise will take a space complexity of?,O(1),O(n),O(n^2),none of the above,O(1),understanding,hard
+How can we destroy a linked  list pointer in C++?,delete keyword,free keyword,calloc,malloc,delete keyword,memorybased,easy
+What is the space complexity for deleting a linked list?,O(1),O(n),O(n^2),none of the above,O(1),understanding,medium
+Which of the following linked list operation takes O(1) time?,insert element at start of the linked list,insert element at the end of the linked list,find length of the linked list,none of the above,insert element at start of the linked list,memorybased,medium
+Which algorithms can be used to sort a random linked list with minimum time complexity?,insertion sort,quick sort,heap sort,merge sort,merge sort,memorybased,hard
+Pointer to a node Y in a singly linked list. A pointer to the head node is not given if one point is given. Can we delete node Y from the given linked list?," Yes, if Y is not the last node.","Yes, if the size of the linked list is even."," Yes, if the size of the linked list is odd."," Yes, if Y is not the first node. ","Yes, if Y is not the last node.",understanding,hard
+"Where you given pointers to the first and last nodes of a singly linked list, an Option that depends on the linked list's length?",Delete the first element., Insert a new element as the first element.,Delete the last element.,Add element at the end of the list.,Delete the last element.,understanding,hard
+"In C++, how do you allocate memory for a new node in a linked list?",Using the new keyword,Using the malloc keyword,Using the delete keyword,Using the free() keyword,Using the new keyword,memorybased,easy
+Which operation in a linked list requires traversal through the entire list?,Insertion at the beginning,Insertion at the end,Deletion at the beginning,Deletion at the end,Deletion at the end,understanding,medium
+What is the purpose of the head pointer in a linked list?,To store the value of the first node,To store the value of the last node,To point to the previous node,To point to the first node,To point to the first node,memorybased,easy
+Which of the following is an advantage of a doubly linked list over a singly linked list,Efficient memory usage,Ease of insertion at the beginning,Ability to traverse in both directions,Simplicity of implementation,Ability to traverse in both directions,memorybased,medium
+What is a node in a linked list?,A data structure to store multiple values,A container to hold pointers,A data structure representing an element in the list,A reserved memory location,A data structure representing an element in the list,memorybased,easy
+Which operation in a linked list can be performed in constant time (O(1))?,Insertion at the beginning,Insertion at the end,Deletion at the beginning,Deletion at the end,Insertion at the beginning,memorybased,hard
+What happens if memory allocation fails during the creation of a new node in a linked list?,The program crashes,Null pointer is returned,Operating system reallocates memory,Garbage collector intervenes,Null pointer is returned,understanding,easy
+How can you determine if a linked list contains a cycle in C++?,By using the std::find algorithm,By using a hash table to store visited nodes,By checking for duplicate elements,By using the Floyd's Tortoise and Hare algorithm,By using the Floyd's Tortoise and Hare algorithm,understanding,medium
+What is the purpose of the tail pointer in a linked list?,To store the value of the last node,To point to the previous node,To store the length of the list,To point to the next node,To store the value of the last node,understanding,easy
+How do you remove duplicates from an unsorted linked list in C++?,Using sorting algorithms like quicksort,Using the std::unique algorithm,By iterating through the list and using a hash table to track duplicate values,By comparing adjacent elements and removing duplicates,By iterating through the list and using a hash table to track duplicate values,understanding,medium
+Which of the following operations on a singly linked list requires traversal from the head to the tail?,Insertion at the beginning,Insertion at the end,Deletion at the beginning,Deletion at the end,Insertion at the end,understanding,medium
+How can you reverse a linked list in C++?,By using recursion,By using iteration,. By swapping pointers,All of the above,All of the above,memorybased,easy
+How does the size of a linked list affect the performance of operations in C++?,Larger size improves performance,Smaller size improves performance,Size has no significant impact on performance,It depends on the specific operation,It depends on the specific operation,understanding,medium
+How can you detect and remove loops/cycles in a linked list efficiently in C++?,"Using two pointers, one moving twice as fast as the other",Using recursion,Using a stack to track visited nodes,By sorting the list and removing duplicate values,"Using two pointers, one moving twice as fast as the other",memorybased,medium
+What is the significance of the XOR linked list in C++?,It uses bitwise XOR operation for pointer manipulation,It allows constant-time insertion and deletion at any position,It is a self-balancing binary search tree,It supports parallel processing,It uses bitwise XOR operation for pointer manipulation,memorybased,hard
+What is the role of the dummy node in some linked list algorithms in C++?,To mark the end of the list,To serve as a placeholder for operations,To optimize memory allocation,To improve performance by reducing pointer manipulation,To serve as a placeholder for operations,understanding,medium
+"How do you implement an efficient linked list that supports constant-time insertion, deletion, and search operations in C++?",By using a self-balancing binary search tree,By using a hash table,By using a skip list,By using a doubly linked list with additional indexing,By using a skip list,understanding,hard
+What is the significance of the Flyweight pattern in linked list implementations in C++?,It reduces memory consumption by sharing common parts of state among multiple objects,It optimizes memory allocation for nodes,It ensures consistency in concurrent access to the list,It improves performance by using multithreading,It reduces memory consumption by sharing common parts of state among multiple objects,memorybased,hard
+How can you efficiently detect and remove duplicates from a sorted linked list in C++?,By using a hash table to track visited nodes,By using a doubly linked list,By comparing adjacent elements and removing duplicates,By sorting the list and then removing duplicate values,By comparing adjacent elements and removing duplicates,understanding,medium
+Which of the following is not a type of linked list?,Singly linked list,doubly linked list,circular linked list ,quad linked list,quad linked list,memorybased,easy
+"In a singly linked list, each node contains a reference/pointer to______",Both the previous and next nodes,Only the next node,Only the previous node,none of the above,Only the next node,fillups,easy
+____ operation can be performed efficiently in a singly linked list?,Finding the middle element,Removing the last element,Reversing the list,Searching for an element by index,Finding the middle element,fillups,medium
+What is a disadvantage of using a singly linked list compared to an array?,Dynamic memory allocation,Contiguous memory allocation,Random access to elements,Insertion and deletion at arbitrary positions,Random access to elements,memorybased,medium
+______ of the following operations cannot be performed efficiently in a singly linked list?,Insertion at the end of the list,Deletion of a node with a given value,Finding the maximum element,Concatenating two lists,Finding the maximum element,fillups,medium
+"In C++, when dynamically allocating memory for a new node in a linked list, which operator is used?",*,->',&,::,*,example,easy
+"After dynamically allocating memory for a new node in a linked list, what should be done to deallocate the memory when the node is no longer needed?",Use the delete keyword,Use the free function,The memory is automatically deallocated,Use the remove keyword,Use the delete keyword,memorybased,medium
+"When inserting a new node at the beginning of a linked list, what operation is performed to adjust the pointers/references?",Updating the next pointer of the new node,Updating the next pointer of the previous first node,Updating the next pointer of the last node,none of the above,Updating the next pointer of the new node,understanding,easy
+"In a circular linked list, how are the pointers/references of the last node adjusted to make the list circular?",Pointing to nullptr,Pointing to the first node,Pointing to the previous node,none of the above,Pointing to the first node,understanding,hard
+"In a doubly linked list, each node contains pointers/references to both the previous and next nodes. What advantage does this provide over a singly linked list?",Constant-time access to elements,Reduced memory usage,Faster insertion and deletion at arbitrary positions,Ability to traverse the list in both directions,Ability to traverse the list in both directions,memorybased,medium
+Which of the following statements about circular linked lists is true?,Circular linked lists cannot contain loops,Circular linked lists do not have a beginning or end,Circular linked lists have a fixed size,Circular linked lists have no advantage over linear linked lists,Circular linked lists do not have a beginning or end,memorybased,medium
+"In a singly linked list, if a node has a pointer/reference to another node that is earlier in the list, what is this node called?",Forward node,Next node,Previous node,Backward node,previous node,memorybased,medium
+Which of the following operations is not typically supported by a linked list?,Insertion at the beginning,Insertion at the end,Deletion of the middle element in constant time,Traversal from the end to the beginning,Deletion of the middle element in constant time,memorybased,easy
+"In a circular linked list, what is the condition to terminate a traversal?",When the current node is nullptr,When the current node's pointer/reference matches the head node's pointer/reference,When the current node's pointer/reference matches the tail node's pointer/reference,When the current node's pointer/reference is nullptr,When the current node's pointer/reference matches the head node's pointer/reference,understanding,easy
+Which operation in a linked list requires traversing the entire list?,Insertion at the beginning,Insertion at the end,Deletion of a specific node,Accessing the last element,Deletion of a specific node,understanding,easy
+What is the significance of the nullptr value in linked lists?,It represents the end of the list,It represents the beginning of the list,It indicates a memory leak,It denotes an empty list,It represents the end of the list,understanding,easy
+How can memory leaks occur in a linked list?,By allocating memory using malloc instead of new,By not deallocating memory for unused nodes,By not initializing the head pointer,By using a stack-based memory allocation,By not deallocating memory for unused nodes,understanding,easy
+How does the time complexity of inserting an element at the end of a linked list compare to that of inserting an element at the beginning?,Insertion at the end is faster,Insertion at the beginning is faster,Both operations have the same time complexity,Time complexity depends on the size of the list,Insertion at the end is faster,understanding,easy
+_____ is the role of the tail pointer in a linked list?,It points to the last node in the list,It points to the first node in the list,It indicates the size of the list,It is used for bidirectional traversal,It points to the last node in the list,fillups,easy
+Why might a circular linked list be preferred over a linear linked list in certain applications?,It allows bidirectional traversal,It provides constant-time access to elements,It prevents memory fragmentation,It simplifies certain algorithms like round-robin scheduling,It simplifies certain algorithms like round-robin scheduling,understanding,easy
+Assume that reference of head of following doubly linked list is passed to above function 1 <--> 2 <--> 3 <--> 4 <--> 5 <-->6. What should be the modified linked list after the function call?,2 <--> 1 <--> 4 <--> 3 <--> 6 <-->5,5 <--> 4 <--> 3 <--> 2 <--> 1 <-->6,6 <--> 5 <--> 4 <--> 3 <--> 2 <--> 1," 
+6 <--> 5 <--> 4 <--> 3 <--> 1 <--> 2",6 <--> 5 <--> 4 <--> 3 <--> 2 <--> 1,example,easy
+What is the output of following function in which start is pointing to the first node of the following linked list 1->2->3->4->5->6 ?,1 4 6 6 4 1,1 3 5 1 3 5,1 2 3 5,1 3 5 5 3 1,1 3 5 5 3 1,example,easy
+"Suppose each set is represented as a linked list with elements in arbitrary order. Which of the operations among union, intersection, membership, cardinality will be the slowest?",union , membership,cardinality," union, intersection"," union, intersection",understanding,easy
+Which of the following is an application of XOR-linked lists?,implementing stacks,implementing queues,memory-efficient linked list representation,Caching data structures,memory-efficient linked list representation,understanding,easy
+"Given pointer to a node X in a singly linked list. Only one pointer is given, pointer to head node is not given, can we delete the node X from given linked list?",Possible if X is not last node. Use following two steps (a) Copy the data of next of X to X. (b)Update the pointer of node X to the node after the next node. Delete next of X,Possible if X is not first node. Use following two steps (a) Copy the data of next of X to X. (b) Delete next of X.,Possible if size of linked list is odd,Possible if size of linked list is even.,Possible if X is not last node. Use following two steps (a) Copy the data of next of X to X. (b)Update the pointer of node X to the node after the next node. Delete next of X,understanding,easy
+Is it possible to create a doubly linked list using only one pointer with every node.,not possible,"yes,possible by storing XOR of addresses of previous and next nodes","Yes, possible by storing XOR of current node and next node","Yes, possible by storing XOR of current node and previous node","yes,possible by storing XOR of addresses of previous and next nodes",understanding,easy
+The concatenation of two lists is to be performed in O(1) time. Which of the following implementations of a list should be used?,singly linked list,doubly linked list,circular doubly linked list,array implementation of linked list,circular doubly linklist,understanding,easy
+"In a doubly linked list, the number of pointers affected for an insertion operation will be",5,0,1,none of the above,none of the above,understanding,easy
+"Consider an implementation of unsorted single linked list. Suppose it has its representation with a head and a tail pointer (i.e. pointers to the first and last nodes of the linked list). Given the representation, which of the following operation can not be implemented in O(1) time ?",Insertion at the front of the linked list,Insertion at the end of the linked list,Deletion of the front node of the linked list,Deletion of the last node of the linked list.,Deletion of the last node of the linked list.,understanding,easy
+Consider a single linked list where F and L are pointers to the first and last elements respectively of the linked list. The time for performing which of the given operations depends on the length of the linked list?F->1->2->3->L,Delete the first element of the list,Interchange the first two elements of the list,Delete the last element of the list,Add an element at the end of the list,Delete the last element of the list,understanding,easy
+Which of the following operations is performed more efficiently by doubly linked list than by linear linked list?,Deleting a node whose location is given,Searching an unsorted list for a given item,Inserting a node after the node with a given location,Traversing the list to process each node,Deleting a node whose location is given,understanding,easy
+Which of the following operations cannot be performed efficiently on a singly linked list without using additional data structures?,Reversing the list,Finding the middle element,Detecting a cycle,Merging two sorted lists,Reversing the list,understanding,easy
+What is the space complexity of a doubly linked list?,O(n),O(2n),O(1),O(n^2),O(n),understanding,easy
+Which of the following is NOT a possible implementation of a linked list?,Using arrays,Using static memory allocation,Using recursion,Using dynamic memory allocation,Using arrays,understanding,easy
+"In a sorted doubly linked list, which operation has the highest time complexity?",Insertion at the beginning,Searching for an element,Insertion at the end,Deletion of a given element,Searching for an element,understanding,easy
+Which of the following statements is true about a self-adjusting linked list?,It automatically adjusts its size based on the number of elements.,It rearranges elements to optimize access patterns.,It has a fixed number of nodes., It eliminates the need for pointers.,It rearranges elements to optimize access patterns.,understanding,easy
+Which of the following techniques can be used to detect a cycle in a linked list?,Floyd’s Cycle Detection Algorithm,Depth-First Search (DFS),Breadth-First Search (BFS),All of the above,All of the above,memorybased,easy
+Which of the following statements is true about a sentinel node in a linked list?,It contains data like other nodes.,It is always the last node in the list,It helps in detecting memory leaks.,It does not store data and is used as a placeholder.,It does not store data and is used as a placeholder.,understanding,easy
+"In a circular linked list, how can you find the length of the list without traversing it?",Counting the number of nodes until a NULL pointer is encountered,Using a global variable to store the length,Storing the length in the first node,Maintaining a separate counter variable updated during ,Storing the length in the first node,understanding,easy
+"Consider the following Node struct definition for a singly linked list:struct Node {
+    int data;
+    Node* next;
+};",Node* newNode = new Node; newnode->data=10;,node *newnode=new node(); newnode->data=10 newnode->next=NULL;,Node newNode; newnode.data=10; newnode.next=NULL,Node* newnode = new Node(); newnode->data=10;newnode->next=NULL;,Node* newnode = new Node(); newnode->data=10;newnode->next=NULL;,example,easy
+"In a singly linked list, each node contains ________ and a pointer to the ________ node.",data; next,pointers; next,pointers; previous,data; previous,data; next,fillups,easy
+"In a doubly linked list, each node contains pointers to both ________ and ________ nodes.",previous; next,backward; forward,front; back,next; previous,previous; next,fillups,easy
+The operation of removing the first node from a linked list is called ________.,insertion at the beginning,deletion at the beginning,insertion at the end,deletion at the end,deletion at the beginning,fillups,easy
+A circular linked list is a linked list in which the ________ of the last node points back to the ________ node.,previous pointer; first,next pointer; last,next pointer; first,previous pointer; last,next pointer; first,fillups,easy
+"In a singly linked list, the time complexity of searching for an element is ________",O(1),O(n),O(log n),O(n^2),O(n),fillups,easy
+A ________ allows traversal in both forward and backward directions.,singly linked list,doubly linked list,circular linked list,dynamic ,doubly linked list,fillups,easy
+A ________ linked list is a variation of a linked list where each node contains the XOR of addresses of the ________ and ________ nodes.,doubly; previous; next,singly; previous; next,XOR; previous; next,doubly; next; previous,XOR; previous; next,fillups,easy
+A ________ node in a linked list does not contain any data and is used as a placeholder.,sentinel,placeholder,dummy,null,sentinel,fillups,easy
+"In a circular linked list, the length of the list can be found by storing the length in the ________ node.",first,last,sentinel,current,first,fillups,easy
+The time complexity of inserting a node at the end of a singly linked list is ________.,O(1),O(n),O(log n),O(n^2),O(n),fillups,easy
+The operation of adding a new node at the end of a linked list is called ________.,inserting at the beginning,deletion at the beginning,insertion at the end,deletion at the end,insertion at the end,fillups,easy
+The process of reversing a linked list involves changing the ________ pointers of each node.,next,previous,both the next and the previous,data; previous,next pointer; first,fillups,easy
+A ________ linked list is a type of linked list where the last node points to the first node.,Circular ,doubly linked list,singly,linear,circular,fillups,easy
+"In a circular doubly linked list, the ________ of the first node points to the last node.", previous pointer,next pointer,both previous and next pointers,data, previous pointer,fillups,easy
+The process of inserting a new node between two existing nodes in a linked list is called ________.,split,splice,merge,concatenate,splice,fillups,easy
+The time complexity of deleting a node from the middle of a singly linked list is ________.,O(1),O(n),O(log n),O(n^2),O(n),fillups,easy
+"In a doubly linked list, the process of removing the first node involves updating the ________ pointer of the second node.",next,previous,both next and previous,data,previous,fillups,easy
+A ________ node in a linked list is a special node used to mark the end of the list.,sentinel,placeholder,dummy,terminator,sentinel,fillups,easy
+________ is not the following application of linked list,to implement files,for seperate chaining in hash tables,Random access of elements,more than one of the above,Random access of elements,fillups,easy
+A linear collection of data elements where the linear node is given by means of pointer is called______, Linked list, Node list,Primitive list,Unordered list, Linked list,fillups,easy
+The concatenation of two lists can be performed in O(1) time. Which of the following variation of the linked list can be used_______,singly linked list,Circular doubly linked list,doubly linked list,Array implementation of list,Circular doubly linked list,fillups,easy
+______ c code is used to create new node?,ptr = (NODE*)malloc(sizeof(NODE));, ptr = (NODE*)malloc(NODE);,ptr = (NODE*)malloc(sizeof(NODE*));, ptr = (NODE)malloc(sizeof(NODE));,ptr = (NODE*)malloc(sizeof(NODE));,fillups,easy
+________ differentiates a circular linked list from a normal linked list?,You cannot have the ‘next’ pointer point to null in a circular linked list, It is faster to traverse the circular linked list," In a circular linked list, each node points to the previous node instead of the next nod",Head node is known in circular linked list,You cannot have the ‘next’ pointer point to null in a circular linked list,fillups,easy
+_____ application makes use of a circular linked list?, Undo operation in a text editor,Recursive function calls,Allocating CPU to resources,Implement Hash Tables,Allocating CPU to resources,fillups,easy
+The process of removing a specific node from a linked list involves updating the ________ pointers of adjacent nodes.,adjacent,neighboring,preceding,succeeding,preceding,fillups,easy
+"In a circular linked list, the length of the list can be found by storing the length in the ________ node.",primary,central,sentinel,anchor,sentinel,fillups,easy
+The process of removing the first node from a linked list is called ________.,deletion at the front,deletion at the back,insertion at the front,insertion at the back,deletion at the front,fillups,easy
+"What will be the output of the following C++ code snippet?#include <iostream>
+
+struct Node {
+    int data;
+    Node* next;
+};
+
+int main() {
+    Node* head = nullptr;
+    head = new Node;
+    head->data = 10;
+    head->next = nullptr;
+    std::cout << head->data << std::endl;
+    return 0;
+}",10,garbage value,compliation error,segmentation fault,10,example,easy
+"What does the following C++ code snippet do?Node* reverseList(Node* head) {
+    Node *prev = nullptr, *curr = head, *next = nullptr;
+    while (curr != nullptr) {
+        next = curr->next;
+        curr->next = prev;
+        prev = curr;
+        curr = next;
+    }
+    return prev;
+}",Reverses a singly linked list,Inserts a node at the end of a linked list,Deletes the last node of a linked list,Reverses a doubly linked list,Reverses a singly linked list,example,easy
+"What will be the output of the following C++ code snippet?#include <iostream>
+
+struct Node {
+    int data;
+    Node* next;
+};
+
+void printList(Node* head) {
+    while (head != nullptr) {
+        std::cout << head->data << "" "";
+        head = head->next;
+    }
+    std::cout << std::endl;
+}
+
+int main() {
+    Node* head = nullptr;
+    head = new Node;
+    head->data = 10;
+    head->next = nullptr;
+    Node* second = new Node;
+    second->data = 20;
+    second->next = nullptr;
+    head->next = second;
+    printList(head);
+    return 0;
+}
+",10,20,10 20,compilation error,10 20,example,easy
+"What does the following C++ code snippet do?void deleteList(Node* head) {
+    Node* temp;
+    while (head != nullptr) {
+        temp = head;
+        head = head->next;
+        delete temp;
+    }
+}",Deletes the first node of the linked lis,Deletes the last node of the linked list,Deletes the entire linked list,Deletes the second node of the linked list,Deletes the entire linked list,example,easy
+"Node* findMiddle(Node* head) { Node *slow = head, *fast = head; while (fast != nullptr && fast->next != nullptr) { slow = slow->next; fast = fast->next->next; } return slow; }",Finds the middle element of a singly linked list,Finds the middle element of a doubly linked list,Finds the last element of a singly linked list,Finds the first element of a singly linked list,Finds the middle element of a singly linked list,example,easy
+"What does the following C++ code snippet do?bool detectLoop(Node* head) {
+    Node *slow = head, *fast = head;
+    while (fast != nullptr && fast->next != nullptr) {
+        slow = slow->next;
+        fast = fast->next->next;
+        if (slow == fast) {
+            return true;
+        }
+    }
+    return false;
+}",Detects whether there is a loop in the linked lis,Deletes the loop in the linked list,Reverses the linked list,Finds the middle element of the linked list,Detects whether there is a loop in the linked lis,example,easy
+"Node* findNthNodeFromEnd(Node* head, int n) { Node *fast = head, *slow = head; for (int i = 0; i < n; ++i) { if (fast == nullptr) return nullptr; fast = fast->next; } while (fast != nullptr) { slow = slow->next; fast = fast->next; } return slow; }",Finds the nth node from the beginning of the linked list,Finds the nth node from the end of the linked list,Deletes the nth node from the end of the linked list,Deletes the nth node from the beginning of the linked list,Finds the nth node from the end of the linked list,example,easy
+"What will be the output of the following C++ code snippet?#include <iostream>
+
+struct Node {
+    int data;
+    Node* next;
+};
+
+void printList(Node* head) {
+    while (head != nullptr) {
+        std::cout << head->data << "" "";
+        head = head->next;
+    }
+    std::cout << std::endl;
+}
+
+void deleteList(Node* head) {
+    if (head == nullptr) return;
+    deleteList(head->next);
+    delete head;
+}
+
+int main() {
+    Node* head = new Node;
+    head->data = 10;
+    head->next = nullptr;
+    Node* second = new Node;
+    second->data = 20;
+    second->next = nullptr;
+    head->next = second;
+    deleteList(head);
+    printList(head);
+    return 0;
+}",10 20,garbage value,empty output,segmentation fault,segmentation fault,example,easy
+"What does the following C++ code snippet do?Node* mergeLists(Node* list1, Node* list2) {
+    if (list1 == nullptr) return list2;
+    if (list2 == nullptr) return list1;
+    if (list1->data < list2->data) {
+        list1->next = mergeLists(list1->next, list2);
+        return list1;
+    } else {
+        list2->next = mergeLists(list1, list2->next);
+        return list2;
+    }
+}
+",Merges two singly linked lists into one,Reverses the elements of two singly linked lists,Splits a singly linked list into two lists,Deletes the common elements from two singly linked lists,Merges two singly linked lists into one,example,easy
+"What does the following C++ code snippet do?Node* findIntersection(Node* list1, Node* list2) {
+    Node* head = nullptr;
+    Node* tail = nullptr;
+    while (list1 != nullptr && list2 != nullptr) {
+        if (list1->data == list2->data) {
+            if (head == nullptr) {
+                head = tail = new Node;
+                head->data = list1->data;
+            } else {
+                tail->next = new Node;
+                tail = tail->next;
+                tail->data = list1->data;
+            }
+            list1 = list1->next;
+            list2 = list2->next;
+        } else if (list1->data < list2->data) {
+            list1 = list1->next;
+        } else {
+            list2 = list2->next;
+        }
+    }
+    return head;
+}
+",Finds the common elements between two linked lists,Reverses the elements of two linked lists,Deletes the elements that are common between two linked lists,Merges two linked lists into one,Finds the common elements between two linked lists,example,easy
+"What will be the output of the following C++ code snippet?#include <iostream>
+
+struct Node {
+    int data;
+    Node* next;
+};
+
+Node* deleteAlternateNodes(Node* head) {
+    Node* current = head;
+    while (current != nullptr && current->next != nullptr) {
+        Node* temp = current->next;
+        current->next = temp->next;
+        delete temp;
+        current = current->next;
+    }
+    return head;
+}
+
+void printList(Node* head) {
+    while (head != nullptr) {
+        std::cout << head->data << "" "";
+        head = head->next;
+    }
+    std::cout << std::endl;
+}
+
+int main() {
+    Node* head = new Node;
+    head->data = 10;
+    head->next = new Node;
+    head->next->data = 20;
+    head->next->next = new Node;
+    head->next->next->data = 30;
+    head->next->next->next = nullptr;
+    head = deleteAlternateNodes(head);
+    printList(head);
+    return 0;
+}
+",10 30,20,10 20 30,complilation error,10 20 30,example,easy
+"What does the following C++ code snippet do?Node* reverseKGroup(Node* head, int k) {
+    Node* current = head;
+    Node* next = nullptr;
+    Node* prev = nullptr;
+    int count = 0;
+
+    while (current != nullptr && count < k) {
+        next = current->next;
+        current->next = prev;
+        prev = current;
+        current = next;
+        count++;
+    }
+
+    if (next != nullptr) {
+        head->next = reverseKGroup(next, k);
+    }
+
+    return prev;
+}
+",Reverses every K nodes in a linked list,Deletes every K nodes in a linked list,Inserts every K nodes in a linked li,Reverses the entire linked list,Reverses every K nodes in a linked list,example,easy
+"What does the following C++ code snippet do?Node* deleteDuplicates(Node* head) {
+    Node* current = head;
+    while (current != nullptr && current->next != nullptr) {
+        if (current->data == current->next->data) {
+            Node* temp = current->next;
+            current->next = current->next->next;
+            delete temp;
+        } else {
+            current = current->next;
+        }
+    }
+    return head;
+}
+",Deletes all nodes with duplicate values in the linked list,Deletes the last occurrence of each value in the linked list,Deletes the first occurrence of each value in the linked list,Deletes all nodes except the first occurrence of each value in the linked list,Deletes all nodes with duplicate values in the linked list,example,easy
